@@ -1,0 +1,30 @@
+name: generation # 自定义任务名
+
+on:
+  push:
+    branches: # 在指定的分支接收到了 push 事件之后
+      - hugo-source  # hugo 源文件分支，比如我的博客是 hugo-source 分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with: # 这里不指定 repo 的话就会自动拉取动作所在的 repo
+          submodules: true  # 用于获取用 git submodule 引入的 Hugo 主题
+          fetch-depth: 0    # 加快速度，编译时不需要获取 git 历史记录
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.81.0'
+          # extended: true # 如果用 extend 版本的 Hugo 的话，得加上
+
+      - name: Build # 编译网站
+        run: hugo --minify
+
+      - name: Deploy # 将编译后的结果放到 Github Pages 的分支里
+        uses: peaceiris/actions-gh-pages@v3 # 这个动作可以将文件夹上传到远端的 gh-pages 分支
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # Hugo 编译后默认位于 public 文件夹

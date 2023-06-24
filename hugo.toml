@@ -1,0 +1,72 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-CN'
+title = 'Jasontr的博客'
+theme = 'LoveIt'
+defaultContentLanguage = "zh-cn"
+
+[author]
+  name = 'Binquan Liu (jasontr)'
+  email = 'jasonacg@gmail.com'
+  link = 'https://github.com/jasontr'
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+
+  [languages.zh-cn]
+    weight = 2
+    title = "我的全新 Hugo 网站"
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    hasCJKLanguage = true
+    [[languages.zh-cn.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+    [[languages.zh-cn.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "标签"
+      url = "/tags/"
+      title = ""
+    [[languages.zh-cn.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分类"
+      url = "/categories/"
+      title = ""
