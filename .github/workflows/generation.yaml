@@ -3,7 +3,7 @@ name: generation # 自定义任务名
 on:
   push:
     branches: # 在指定的分支接收到了 push 事件之后
-      - hugo-source  # hugo 源文件分支，比如我的博客是 hugo-source 分支
+      - main  # hugo 源文件分支，比如我的博客是 hugo-source 分支
 
 jobs:
   deploy:
