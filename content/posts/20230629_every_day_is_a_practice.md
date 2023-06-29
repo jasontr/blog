@@ -5,15 +5,13 @@ author: jasontr
 typora-root-url: ../../static
 ---
 
-
-
 ```
 阻挡你自由的,是你对失去的恐惧.   -- 我说的
 ```
 
 今天夜跑时发现楼下的紫阳花开始谢了, 一转眼六月就这么过去了。
 
-<img src="/img/20230629_every_day_is_a_practice/image-20230629235939838.png" alt="image-20230629235939838" style="zoom:50%;" />
+<img src="../../static/img/20230629_every_day_is_a_practice/image-20230629235939838.png" alt="image-20230629235939838" style="zoom:50%;" />
 
 最近在处理一种消极情绪，但是这种努力地去协调情绪的过程，反而让我感觉有种活着的真实感。
 
@@ -29,6 +27,6 @@ typora-root-url: ../../static
 >
 > 每天都是新的练习
 >
-> 用明天换走失去的 [1]
+> 用明天换走失去的
 
 每一天都是一种练习, 每一个瞬间都是一种练习。 
