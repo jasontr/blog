@@ -11,7 +11,7 @@ typora-root-url: ../../static
 
 今天夜跑时发现楼下的紫阳花开始谢了, 一转眼六月就这么过去了。
 
-<img src="../../static/img/20230629_every_day_is_a_practice/image-20230629235939838.png" alt="image-20230629235939838" style="zoom:50%;" />
+![](/img/20230629_every_day_is_a_practice/image-20230629235939838.png)
 
 最近在处理一种消极情绪，但是这种努力地去协调情绪的过程，反而让我感觉有种活着的真实感。
 
